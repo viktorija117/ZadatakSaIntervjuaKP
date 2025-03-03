@@ -38,6 +38,7 @@ Zadatak je zahtevao refaktorisanje proceduralnog PHP koda za registraciju korisn
 
 ## Kod koji je trebalo refaktorisati
 
+```
 <?php
 $email = $_REQUEST['email'];
 $password = $_REQUEST['password'];
@@ -122,3 +123,4 @@ echo json_encode([
 'userId' => $userId
 ]);
 ?>
+```
